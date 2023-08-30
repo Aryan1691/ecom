@@ -10,6 +10,7 @@ import Header from "./Components/Header";
 
 import { ThemeProvider } from "styled-components";
 function App() {
+  const arr =[1,2,3,4];
   const theme = {
     colors:{
       bg: "#000"
@@ -27,7 +28,7 @@ function App() {
             <Route path="/products" element={<Products />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/singleproduct/:id" element={<SingleProduct />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/cart" element={<Cart data={arr} />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </Router>

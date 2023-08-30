@@ -13,7 +13,8 @@ const Header = () => {
   );
 };
 const MainHeader = styled.header`
-  padding: 0 4.8rem;
+  padding: 0;
+  padding-inline: 40px;
   height: 7rem;
   background-color: white;
   display: flex;
