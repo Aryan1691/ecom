@@ -1,7 +1,8 @@
+import HeroSection from "./HeroSection"
 
 const About = () => {
   return (
-    <div>About</div>
+  <HeroSection name={"E-Commerce"}/>
   )
 }
 

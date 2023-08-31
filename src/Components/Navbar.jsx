@@ -82,7 +82,7 @@ const Navbar = () => {
 };
 
 const Nav = styled.nav`
-  @media only screen (max-width: 750px) {
+  @media only screen and (max-width: 750px) {
     .mobile-navbar-btn {
       display: block;
     }
